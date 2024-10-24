@@ -11,8 +11,8 @@
    ```sh
    git clone <repository-url>
    cd gitpractice
-   
-2.  **Create a virtual environment:**  
+
+2.  **Create a virtual environment:**
     ```sh
     python -m venv venv
     ```
@@ -28,12 +28,12 @@
     source venv/bin/activate
     ```
 
-4. **Install the dependencies:**  
+4. **Install the dependencies:**
     ```sh
     pip install -r requirements.txt
     ```
 
-5. **Apply database migrations:**  
+5. **Apply database migrations:**
     ```sh
     python manage.py migrate
     ```
