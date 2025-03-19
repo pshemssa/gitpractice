@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/devops-practice:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-practice:latest
